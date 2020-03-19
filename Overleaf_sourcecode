@@ -1,0 +1,218 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+
+\usepackage{blindtext} %for enumarations
+
+\usepackage[]{hyperref}  %link collor
+
+%talbe layout to the right
+%\usepackage[labelfont=bf]{caption}
+%\captionsetup[table]{labelsep=space,justification=raggedright,singlelinecheck=off}
+%\captionsetup[figure]{labelsep=quad}
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+
+\setlength\parskip{4pt}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+\begin{document}
+\title{
+\normalfont \normalsize 
+\textsc{Trinity College Dublin} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge  NGC 891: The Silver Silver Galaxy \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{  Benjamin Moore \\ 17327505\\ Prof. Jose Groh} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+\newpage
+
+\maketitle
+
+
+
+
+
+
+\newpage
+\tableofcontents
+\newpage
+\begin{multicols}{2}
+\section{Abstract}
+Liturature regarding NGC 891 was investigated to produce a profile and outline points of interest in this galaxy. NGC 891 is predicted to be a SA(s)b morphological type located at 02h22m33.41s, +42d20m56.9s\cite{c} (Right Ascension, Declination) at a distance of ~ 9.5 Mpc. NGC 891 is similar, but larger ($1.5x10-11 solar masses$- mass interior of ~ 110 million light years) than the Milky Way, making it the nearest prime analog of the Milky Way at the distance stated above. From studies of the kinetics of the galaxy, no dark matter is expected to exist inside r~ 15 kpc, producing a mass fraction of close to 20\%. The galaxy falls under the Tully-Fisher relationship as expected of a spiral galaxy. The galaxy is almost perfectly edge-on which draws interest for many reasons. accuracy of v max, mass distribution, can study components separately, however it also restricts the information available to us about the kinematics as a whole, resulting in a range of values being possible for some simulations. The proximity of the galaxy is especially important as it allows us to comprehensively characterise the outskirts of spirals beyond the Local Group. This involves resolving the low surface brightness of the old giant stars in the galaxy which is restricted through the present-day instrumentation to the small number of spirals closer than ~10–12 Mpc.
+
+\section{General Properties}
+\subsection{Initial Discovery}
+The Silver Silver Galaxy (NGC 891) was first discovered by William Herschel on the 6th of October 1784 and catalogued as HV 19 in his "Catalogue of One Thousand New Nebulae and Clusters of Stars". However, in the appendix of his first catelog, he confused it with his HV 18(M110/NGC 205), discovered by his sister Caroline Herschel. This mistake was picked up by astronomers, so it was wrongly attributed to Caroline for a long time\cite{a}. The inclination of the galaxy in the sky is 02h22m33.41s, +42d20m56.9s (Right Ascension, Declination).
+
+\includegraphics[width=5cm]{NGC891-profiler.jpg}
+\subsection{Galactic Classification}
+NGC 891 is a SA(s)b? type spiral galaxy in the de Vaucouleurs system of galactic classification \cite{b}. SA indicates that the galaxy has no bar. The next class is determined by the presence or absence of rings in this system, the (s) means no rings, and that the shape of the spiral forms an s configuration. Finally, the b indicates the tightness of the spiral arms ranging from a being the tightest to d being the most diffuse. The question mark that in this text is used to highlight an uncertainty in the classification. In the case of NGC 891, it is due to the uncertainty regarding its bar structure (similar to the Milky Way). This occurs as the view of the galaxy is almost perfectly edge-on. However, there are some clues as to what sort of configuration should exist through studies of mass distribution and kinematics.
+
+\subsection{Distance Determination Methods}
+Various studies have been completed on the distance of this nearby galaxy. The two most common, with least error range, are using the Tully-Fisher relation and TRBG or Tip of the RED Branch Giant.NED has provided average values over the total distance measurements from the various techniques spanning 30 papers. The mean distance modulus is 29.87 magnitudes with a metric distance of 9.535 Mpc. However, it seems that this distance may be slightly conservative as recent papers estimate a further distance, as the luminosity has now been measured at many more wavelengths (see Tully-Fisher relation).
+\subsubsection{Tully-Fisher}
+The distance was first measured in 1981 through this means and has been increasing in accuracy (and magnitude) ever since. The galaxy is roughly 31 million light years away. The Tully-Fisher relation for spiral galaxies is based upon the observed relationship between the luminosity and rotational velocity (a quantity that does not vary with distance, Important in determination of luminosity). It makes use of two assumptions in its definition; that the surface brightness is constant, ie L is proportional to $r^2$ and that the mass to luminosity relationship is also constant for all spirals.Using a recent version of these types of calculations we find that the distance is $~ 10.8$ Mpc\cite{d}.
+
+\subsubsection{Tip of the Red Branch Giant}
+The Tip of The Red Giant Branch is a method of distance determination that utilizes the luminosity of Population II Red Giant Branch stars as a standard candle. The ‘Tip’ of the Red Giant Branch on the HR diagram represents the onset of a Helium Flash in stars with stellar masses less than 1.8 times the mass of the sun. This happens when the helium core of a star (with its hydrogen shell) has sufficient temperature and pressure for the triple alpha process to take place, causing a sharp discontinuity in the Hertzprung-Russel evolution of a star.
+Knowing the luminosity allows us to find the absolute magnitude, then the  distance modulus and hence the metric distance can be determined from the absolute magnitude. 
+
+The value obtained through this measurement waas 9.20 Mpc\cite{e}, which is substancially lower than that obtained through the selected Tully-Fisher example, even if we take into account the diameter of the galaxy. However, the purpose of the study that this measurement was recorded with was to measure the value of the Hubble constant. Their results showed a ~10 \% increase in $H_0$ which allows for a large amount of the deviation.
+\subsection{Structural Components}
+\subsubsection{Overview}
+NGC 891 is the nearest prime analog of the Milky Way with a distance as showed above. It is larger than milky way, having a diameter is 110,000 light-years and mass is 150 billion solar masses. It has more molecular hydrogen, higher star formation rates (3.8 M (solar luminosities) $yr--1$, \cite{f}) and is 50 percent more luminous (mostly through radio emissions). NGC 891 is most likely a starburst galaxy\cite{g} in a quiescent state due to its high stellar formation rates. The centre of the galaxy has been the centre of much debate, as the recently detected of a ultraluminous xray source has sparked interest into the hydrostatic equilibrium of the galaxy. The blackhole at the centre is theorised to be a weak AGN \cite{g}(((that has surpassed the eddington limit))) (see Central Black Hole). It has a lopsided disk, which also hints to previous interaction with smaller galaxies, ranging from 1 to 10 percent of the mass (UGC 1807 is a possible candidate given trajectories).  It is highly disk dominated\cite{h}(ie has a very small bulge). This means that the concentration of light in this galaxy is well distributed. The bulge and the disk of the galaxy are surrounded by a "large, flat, and thick cocoon-like stellar structure"\cite{i} at vertical and radial distances of up to ~15 kpc and ~40 kpc, respectively.NGC 891 is unfortunately located at a low Galactic latitude $(l = 140.38, b = −17.42)$, and therefore suffers from significant (though not large) extinction from foreground dust: E(B − V) = 0.065  corresponding approximately to AV= 0.22, AI= 0.13\cite{j}. It is also in an edge on orientation which has many advantages but also some disadvantages, as stated above.
+\subsubsection{The Disk}
+Observing edge-on galaxies presents the best conditions for the identification and characterization of multiple disks, as any projection effects are minimized. However, the effects of dust attenuation are also maximized in galaxies with this orientation. This becomes especially problematic in high mass galaxies such as NGC 891, where the dust lanes are concentrated in a narrow lane.The edge on aspect also gives us very little information about population I stars.
+The disk of NGC 891 can be divided into two obvious sections, the thin and thick disks, and a possible third, the super-thin disk due to recent probings of the near-infrared range.
+Asymmetries in the super-thin disk light profile are indicative of young, hot stars producing regions of excess luminosity and bluer (attenuation-corrected) near-infrared color. To fit the inner regions of NGC 891, these disks must be truncated within ~3 kpc, with almost all their luminosity redistributed in a bar-like structure 50 percent thicker than the thin disk (adding some more ambiguity to the classification of the galaxy). There appears to be no classical bulge but rather a nuclear continuation of the super-thin disk\cite{k}. The super-thin, thin, thick, and bar components contribute roughly 30, 42, 13, and 15 percent (respectively) to the total K s-band luminosity. Disk axial ratios (length/height) decrease from 30 to 3 from super-thin to thick components. The main argument for such a structure is based on the observation that there is an excess amount of light in the plane of the galaxy with scale height comparable to the height measured using NIR(Near-Infrared) to find the super-thin disk. Also, excess light has been found at the very center of NGC 891. This excess is well fit by a nuclear disk with the same scale-height as the super-thin disk, a scale-length of 0.25 kpc (~10 percent of the super-thin disk), and 20 percent of the super-thin disk's luminosity (raising possible questionmarks over the classification of the galaxy as a starburst with an AGN). A classical $R^1/4$-law bulge cannot adequately fit this feature. However, the study identifying this thin disk highlighted some uncertainties in their data detection method of using NIR to probe and compare to MIR data, which does not have the same range.
+
+The dimensions of the two models used are printed below. It was found that both exponential and $sech^2$ vertical SB profiles fit the data equally well.
+\begin{tabular}{c|c|c}
+    Parameter&ModelA&Units\\
+    BulgeL&$1.8×10^{10}$&L☉\\ 
+    Thin D&$4.2×10^{10}$&L☉\\ 
+    Super-thin&$2.8×10^{10}$&L☉\\ 
+    $BulgeR_e$&$1.0$&kpc\\ 
+    Axial Ratio&0.6&-\\ 
+    
+    
+\end{tabular}
+
+The thick disk of the galaxy has height and radius\cite{i} hZ = 1.44 +/- 0.03kpc hR = 4.8 +/- 0.1kpc, only slightly longer than that of the thin disc. It shows isophotes with a greater flattening in comparison to the inner disk \cite{l}. This may be interpreted as the flattening of the spheroidal component with radius due to the disks potential (reaching q = 0.50 in the outermost halo region probed)\cite{m}.
+The thick disk of this galaxy is much flatter than the inner components, of the halo, making it unlike any classical notions of a thick disk or halo.
+ It possesses a negative metallicity gradient at vertical distances larger than ~5 kpc.(The halo inside of r ~ 15kpc is moderately metal-rich (median [Fe/H] ~ -1.1dex).  Beyond that distance, a modest chemical gradient is detected, with the median reaching [Fe/H] ~ -1.3dex at r ~ 20 kpc. The super-thick structure presented here is not just a peculiarity of NGC 891: an analysis of deep panoramic observations of the nearby edge-on galaxy NGC 2683 clearly shows the presence of an almost identical structure surrounding the high surface brightness components of that galaxy\cite{i}.
+
+\subsubsection{Bulge and Spheroidal Light distribution}
+The central bulge of the galaxy is small and contributes little to the luminosity and mass of the galaxy. The stellar mass of the bulge is 2 × 109M⊙, and scale length is roughly 10 percent of the length of the thin disk\cite{n}.
+The halo is the region outside of the disk where material is exchanged circulated between different parts of the galaxy. Galactic halos also provide the interface between the galaxy, which is visible and well studied, and the intergalactic medium ( IGM ), the content and properties of which remain largely unknown\cite{f}. A large proportion of the mass in the halo of spiral galaxies has to be accounted for in dark matter halos for the rotational velocities to remain constant. For NGC 891 simulations of the galaxy have been computed using dark matter halo with virial mass $Mvir= 1.4 × 10^11M⊙$ and virial radius $R_200= 104 kpc$\cite{o}. 
+Recent surface density studies of RBG stars have revealed a large complex of arcing streams that loops around the galaxy, tracing the remnants of an ancient accretion\cite{i}. 
+This, along with other similar discoveries, suggests that halo substructure in the form of tidal streams may be a generic property of massive spirals, and that the formation of galaxies continues at a moderate rate up to the present day. It also is highly suggestive into the origin of the lopsided shape of the galaxy, with a possible cause being several mergers of dwarfs with masses ranging from 1 to 10  percent of the host mass (Gao et al. 2004), with many on low-eccentricity orbits (Ghigna et al. 1998)(ie flyby interactions). Other possible suggestions were cosmological gas filaments and ram pressure from the IGM. However, through simulation it was calculated flybys contribute to 20 \% of the mechanisms that induce lopsidedness of galaxies, a common feature among a large fraction of disc galaxies This then suggests that a super-thick stellar envelope formed by numerous accretions may be a common feature of large spirals.
+
+A study of the components of the halo can be conducted by subtraction the surface brightness and luminosity of the disk from the total luminosity and surface brightness to leave the that of the spheroidal components. The minor axis profile can be fitted to de Vaucouleurs $R^4$ law, and the integrated light becomes bluer with further distance as expected due to lower metalicity in the older population stars/ISM. However, the isophotes become flatter at lower surface brightness which makes the fit fail at these distances. However an accurate fit can be extrapolated from a central surface brightness of $2.8x10^4  L⊙ pc^-1$ with effective radius of 2.3 kpc along minor axis. This is a slightly lower central surface brightness and effective radius than that of our galaxy. The ratio of axis is estimated to be similar to the of our galaxy ~ 0.8 due to the kinematics (can estimate eccentricity from vmax/ velocity dispersion relation). Another highly interesting characteristic is that there is small-scale variations in the median colour and density of the halo\cite{m}. These are attributed to variations in the stellar metallicity. This leads to the possible conclusion that the halo of this galaxy is composed of a large number of incompletely mixed sub-populations, providing another hint to its origin, as haloes are expected to be populated by stars which are tidally stripped from satellites as they fall into the host galaxies potential.
+
+The gaseous component of the halo has been a subject of much debate in this galaxy.Extra-planar emission in NGC 891 is detected up to a projected distance of more than 10 kpc from the plane everywhere and more than 20 kpc in a filamentary structure in the northwest\cite{f}. Integrating the flux density located above and below 1 kpc from the plane, we find that the H i in the halo represents 29 percent of the total H i content of NGC 891. The observations of HI are among the deepest ever obtained for an external spiral galaxy. It is therefore a possible theory that other galaxies, if observed with comparable high sensitivity, would also show similar extended extra-planar emission, and gaseous halos may be a common feature among spiral galaxies. The origin of this gaseous halos is still a matter of debate. The galactic fountain mechanism \cite{p} has received the most attention to date. In this scheme, gas is pushed into the halo by stellar winds and supernova explosions, mostly in the hot ionized phase. This gas travels through the halo, eventually cools to neutral, and falls back to the disk (Bregman 1980).
+
+\subsubsection{Central Black Hole}
+The centre of the galaxy has recently been considered a new ultraluminous X-ray source candidate\cite{q}. Ultraluminous xray sources are non-nuclear X-ray sources with luminosities $LX ~ 10^39 erg s^−1$ \cite{r}. These are the topic of interest as their luminosities exceed the Eddington limit for a 10 M☉ black hole, suggesting that they are either "intermediate mass" black holes (IMBHs) of $M_BH ~ 102–104 M☉$ or stellar-mass black holes seen during a special time (super-Eddington accretion; see, e.g., Gladstone et al. 2009, hereafter GRD09) or at a special angle (i.e., non-isotropic LX; King et al. 2001). The source, which has an absorbed flux of $Fx ~ 1 × 10^–12 erg s cm^–2$ (corresponding to an $Lx gsim 10^40 erg s^–1$ at 9 Mpc), must have begun its outburst in the past five years as it is not detected in prior X-ray observations between 1986 and 2006.Empirical fits have been applied to the XMM-Newton spectrum, showing that the the source provides an appropriate fit to emission from a hot disk, a cool irradiated disk, or blurred reflection from the innermost region of the disk. The simplest physically motivated model with an excellent fit is a hot disk around a stellar-mass black hole (a super-Eddington outburst), but equally good fits are found for each model.
+\subsubsection{Presence of AGN}
+As mentioned earlier the galaxy, due to the luminosity of x-rays protruding from the disc in the north-west direction out to approximately 6 kpc, it is expected to be a starburst galaxy in a quiescent state. This would imply that the galaxy is an AGN. The point-source population was analysed using a Chandra and XMM-Newton observation.Chandra has very high spatial resolution and moderate collecting area, whereas XMM-Newton has reasonable spatial resolution, but a larger collecting area, and thus should be able to see lower X-ray surface brightness features.
+Chandra used a maximum-likelihood method to find that the slope of the cumulative luminosity function of point sources in the galaxy is −0.77+0.13−0.1.
+The slope of the X-ray luminosity function (XLF) of point sources was analysed as a flatter XLF slopes indicating more recent star formation (due to a large fraction of high-luminosity massive X-ray binaries). The point-source populations of several nearby galaxies have been analysed, and have found that the XLF slope is generally steeper for normal spiral galaxies than for the starburst galaxies(Hartwell et al. 2004), leading to the conclusion on NGC 891. 
+observations that have been completed on this region (with Chandra and XMM-Newton) could not confirm each others results, most likely due to poor resolution on the part of XMM-Newton\cite{g}.
+
+\section{Kinematics}
+Extensive studies have been carried out on the kinetics of HI gas clouds in the galaxy, as it is difficult to obtain any information about population one stars in the innermost section of the disk, and these gas clouds provide a greater insight on this region. It also allows us to study the variation in rotation between that of the disk and the gaseous halo surrounding it.
+The kinematics of the H i gas is shown by the position-velocity ( p-V ) diagrams parallel and perpendicular to the disk (Figs. 3 and 5).
+ Through a study of the redshift of the galaxy it is easy to determine that it is receding from us at 529 km/s.
+Another characteristic about its kinematics is the steep rise in rotational velocities as r increases. Max ~250 km/s at 6,500 light years from the hub. Becomes almost flat at 10,000 and remains to edge. A possible explanation for this is that their is a halo of dark matter surrounding the galaxy. This may have been determined by the HI rotation curve. The rotation in the plane is characterized by an inner peak produced by a fast-rotating inner ring or by a bar (Sweater et al, 1997). This feature is symmetric with respect to the center and also with respect to the systemic velocity. The cloud shows a flat rotation curve out to a distance of about 17 kpc from the center\cite{h}.
+
+\includegraphics[width = 4cm]{sped.png}
+
+
+ Outside of this, the overall kinematics of the halo gas is characterized by differential rotation lagging with respect to that of the disk. The lag, more pronounced at small radii, increases with height from the plane\cite{f}. 
+ Above and below the plane of the disk the shape of the p-V diagrams changes dramatically. The overall shape of the diagram changes from that of a typical deferentially rotating disk to that of solid-body rotation. 
+ 
+\includegraphics[width = 4cm]{pvsv.png}
+
+The vertical gradient of the rotational velocity is about 15 km s1 kpc1\cite{g}. The shape of the halo rotation curves does not remain constant with distance from the plane, but its rising part becomes shallower and shallower with height. Random motions in the halo or systematic deviations from circular motion (in- or outflows) may also be present.
+A significant fraction of the HI halo must come from a galactic fountain, as the high star formation rate in the disk strongly suggests. The radio continuum, the H, and the X-ray data are all corroborating evidence. However, the kinematics of the halo suggests the need of an interaction between the fountain gas and low angular momentum material. Such material may be supplied by gas accretion from the surrounding IGM(supporting the theory of an AGN). The long HI filament and the counterrotating clouds may be direct evidence of such accretion\cite{f}.
+
+\includegraphics[width = 4cm]{w.png}
+
+Models Used to investigate structure and kinematics of extraplanar H1
+The structure and the kinematics of these gaseous structures appear to favor a scenario in which they are the results of a flyby interaction with the gas-rich satellite UGC 1807\cite{o}.
+
+
+\section{Mass Distribution} 
+
+
+The mass has been estimated in three sections of the galaxy, the mass of the bulge, the mass of the disk, and the mass of the halo. In NGC 891 the baryonic mass of the bulge and disk can explain the rotation curve without any need for dark matter out to $∼15$ kpc (\cite{h} and many more). However, the flattening of the rotational curve is evidence for a dark matter halo. Therefore, it is reasonable to assume most of the mass in the bulge and disk to be baryonic, and a large proportion of the mass in the halo to be dark matter. Through various simulations of the rotational curves of H1 gasses (surface photometry, and 21 cm curve, and assumption that rotation curve decreases monotonically beyond 25 kpc) an range of estimates for the masses of the halo and disk were generated(Bahcall et al, 1983) . However, the range in values of ratio of halo mass to disk mass had an order of magnitude difference (.6-11) in the results due to a variation in rotational curves\cite{s}, primarily due to a lack of data points in the initial study. However in more current papers, the mass of the bulge has been taken for many simulations to be $~1.84x10^10 solar masses$, the disk $3.1x10^10 solar masses$, and the dark matter halo $~3.1 x10^10 solar masses$.
+
+\includegraphics[width = 6cm]{mass.png}
+
+\section{Stellar Population}
+The galaxy is very attractive for studies of the disk and halo population due to its edge on aspect, as it allows a more resolved comparative study of components such as the thick disc, stellar streams and substructures, and the total visible mass and extent of the halo.  Another key interest is the galaxies proximity, which makes the galaxy close enough so that HST imaging is easily capable of resolving the halo stars, enabling direct star-by-star statistical studies of its old stellar populations. 
+The stellar content, both the diffuse component and star clusters, of the outskirts of galaxies are among the oldest and the most metal-poor stellar components of galaxies.
+***actual data on pop 1 and pop 2 stars***
+An important concept when determining the stellar population of a galaxy is the metallicity of the galaxy, as a higher abundance of metals indicates an older population of stars as they have had a longer period of time for stellar nucleosynthesis to occur to generate heavier elements through various processes. The metallicity is measured through the total iron content generally, as this is the easiest to measure with spectral observations in the visible spectrum (even though oxygen is a more abundant metal). The equation quantifying the metallicity is given by 
+\begin{equation}
+    [Fe/H]=log_(10) (N_Fe/N_H)_(star) 
+   
+    - log_(10)(N_Fe/N_H)_(sun)
+\end{equation}
+
+Therefore, a value of +1 has 10 times more metallicity than the sun, and -1 would have $1/10$th the metalicity of the sun (unit is dex).
+The thick disk and spheroidal population of the halo are highly dominated by old red giant branch stars, with a range of metalicities, (-2.4 up to half-solar dex)\cite{t}. The peak of the distribution occurs at -0.9 dex.
+No vertical colour or metallicity gradient  is shown in the inner parts of the thick disc, within $∼14 kpc$ along the major axis show . In the outer parts, a mild vertical gradient of less than 0.1 dex $kpc^−1$ is detected (but large scale variations occur of 0.35 dex around the mean of $-1.13 dex$), with bluer colours or more metal–poor stars at larger distances from the plane. The gradient is assumed to be due to the mixing with the more metal poor stars of the halo. 
+The properties of the asymmetric metallicity distribution functions of the thick–disc stars show no significant changes in both the radial and the vertical directions. 
+The inner spheroid and halo shows uniform stellar population properties(an odd occurrence). The average metallicity of the halo stellar population has a gradient of ~ −1.15 dex in the inner parts, and −1.27 dex at 24 kpc distance from the centre. Large variations around the mean relation are present(similar to thick disk stars, may be an indication of globular clusters).
+
+Being a edge-on galaxy has advantages in facilitating the study of the halo population of a galaxy as the line of sight is not heavily obscured by the disk of the galaxy, and vice versa. The deep imaging available through the Advanced Camera for Surveys (ACS) on board the Hubble Space Telescope, which initially intended on surveying the halo field-population, also revealed faint globular clusters similar (in number density and size) to those seen in the Milky Way.
+
+Of a total of 43 candidates, 16 are very well suited to the parameter of space occupied by the same GCs in the Milky Way (after culling by object morphology, magnitude and colour, etc).
+
+\includegraphics[width = 4cm]{z.png}
+
+The colour–magnitude diagram for the final sample of 43 GC candidates, compared with the Milky Way clusters (solid red dots). The 16 best candidates are plotted as circled crosses and the remaining 27 lower-probability candidates as smaller crosses.
+
+\section{Tully-Fisher Relation}
+Ngc 891 fits well on the Tully-Fisher relation as would be expected for a spiral galaxy of its size, and with such good resolution of its rotational velocity.
+The galaxy can have its distanced calculated using a nearby dwarf galaxy [TT2009] as a standard candle through TRGB(a good alternative to Cepheid period-lum relationship for determining Hubble constant), meaning that the distance to the galaxy is well resolved too, making the luminosity of the galaxy an easier calculation. This would lead to the expected result of the galaxy being located close to the empirical fit of the relation.
+
+
+The apparent magnitude of NGC 891 in the I band is 8.47\cite{u}. Given the accuracy of the distance determination (TRGB) and the rotational velocities (edge-on), the expected fit to the relation is quite strong. The absolute magnitude can be given using the Tully-Fisher to be:
+\begin{equation}
+    M = (-7.91+-0.62)(logW-2.5)
+    
+    -(21.11+-0.07) \cite{u}
+\end{equation}
+With W being the max rotational velocity corrected for inclination and redshift.
+This produced this plot for NGC 891 as well as 12 other similar galaxies.
+
+\includegraphics[width = 5cm]{x.png}
+
+Hence, NGC 891 lies very close to the Tully Fisher Relation.
+
+
+
+
+\section{Conclusion}
+In summary, NGC 891 is most likely a SA(s)b spiral galaxy when the various factors are considered. It is still considered to be an analog to the Milky Way even though there are some distinct differences in metallicity and mass distribution.
+The galaxy is located at 02h22m33.41s(RA), +42d20m56.9s(Dec), and at a distance $~9.5$ Mpc. The aspect of the galaxy, being almost perfectly edge on, allows a great deal of accuracy in measuring the maximum rotational velocity, and analysing the structural components of the galaxy. This allows for the observed fit on the Tully-Fisher relation.
+
+Recently, it has been shown that the clues to the origin of galaxies may lie in what is preserved in galaxy outskirts (\cite{w}, and references therein). It is thought that large spirals may begin as small fluctuations in the early universe and grow through hierarchial merging and situ star formation\site{x}. Once the spiral component is then dominant, accretion continues, with massive spirals building up stellar and dark matter halos (Abadi et al. 2006). This happens through sub-halos being tidally stripped, spreading the stars over a broad range of the dominant galaxy. This is a possible solution to the variations in densities and chemical structures seen in NGC 891 and other galaxies like it.
+\end{multicols}
+\bibliographystyle{plain}
+\bibliography{References.bib}
+\end{document}
